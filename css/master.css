@@ -1,0 +1,29 @@
+
+h1,h3,h2{
+    text-align: center;
+}
+
+body{
+   
+    background-image: url("../images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+#main{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.card-footer>p{
+    font-weight: bold;
+}
+
+.text-muted{
+position: relative;
+  font-size: larger;
+}
+
+footer{
+    text-align: center;
+}
