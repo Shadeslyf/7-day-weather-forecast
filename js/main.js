@@ -366,7 +366,7 @@ document.getElementById("list").addEventListener("change", function (e) {
 
 // http request to API
 let getForcast = (long, lat) => {
-  let api = `http://www.7timer.info/bin/api.pl?lon=${long}&lat=${lat}&product=civillight&output=json`;
+  let api = `https://www.7timer.info/bin/api.pl?lon=${long}&lat=${lat}&product=civillight&output=json`;
 
   loadingMessage.style.display = "block";
   removeExistingCards();
